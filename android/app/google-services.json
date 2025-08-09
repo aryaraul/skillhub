@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "468608746624",
+    "project_id": "skillhub0309",
+    "storage_bucket": "skillhub0309.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468608746624:android:b98997b05ddb4f25895265",
+        "android_client_info": {
+          "package_name": "com.example.skillhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm-nsBCUxREyH-Oe7k4lRLenozUT6RrF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
