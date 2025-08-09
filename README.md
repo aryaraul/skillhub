@@ -1,16 +1,45 @@
-# skillhub
+# 🎯 SkillHub
 
-A new Flutter project.
+SkillHub is a **skill-sharing platform** built using **Flutter** where users can **learn or teach** various skills like guitar, coding, photography, and more.  
+The app allows people to upload courses, watch lessons, and connect with other learners and mentors.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **User Authentication** – Sign up and log in using Firebase Authentication  
+- 🎥 **Video Uploads** – Share your skills by uploading video lessons  
+- 📚 **Browse Courses** – Discover skills in different categories  
+- 📜 **Personalized Recommendations** – Get skill suggestions based on your history  
+- 🖥 **Cross-Platform** – Works on Android, iOS, and Web  
+- 📂 **Firebase Integration** – For authentication, storage, and database
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Frontend**: Flutter  
+- **Backend**: Firebase (Auth, Firestore, Storage)  
+- **Language**: Dart  
+- **Database**: Cloud Firestore  
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+skillhub/
+│
+├── lib/
+│   ├── main.dart              # App entry point
+│   ├── login/                 # Login and signup UI
+│   ├── home/                  # Home screen and dashboard
+│   ├── course_screen.dart     # Course detail screen
+│   ├── upload_video_screen.dart # Upload course videos
+│   └── widgets/               # Reusable UI components
+│
+├── assets/
+│   └── images/                # App images & icons
+│
+├── pubspec.yaml               # Dependencies
+└── README.md
